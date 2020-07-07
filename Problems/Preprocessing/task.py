@@ -1,0 +1,7 @@
+title = input()
+title = title.replace("!", "")
+title = title.replace(",", "")
+title = title.replace(".", "")
+title = title.replace("?", "")
+title = title.lower()
+print(title)
